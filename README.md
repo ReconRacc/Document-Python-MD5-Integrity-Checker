@@ -1,2 +1,2 @@
 # Document-Python-MD5-Integrity-Checker
-Python automation script for generating and verifying MD5 hashes to detect file changes or tampering. Supports scanning files or directories, comparing checksums against known values, and logging results for integrity monitoring.
+Developed a Python automation tool that generates and verifies MD5 hashes to ensure file integrity. The script automatically scans specified files or directories, calculates their MD5 checksums, and compares them against known values to detect changes or tampering. Includes logging and error handling to support repeatable integrity checks, making it useful for security audits and system monitoring.
