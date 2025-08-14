@@ -30,6 +30,7 @@ Developed a Python automation tool that generates and verifies MD5 hashes to ens
 Expected: 5d41402abc4b2a76b9719d911017c592 | Found: 098f6bcd4621d373cade4e832627b4f6
 
 # Code Example
+```python
 import hashlib
 import os
 
@@ -63,3 +64,4 @@ if __name__ == "__main__":
         "data.csv": "5d41402abc4b2a76b9719d911017c592"
     }
     verify_files(target_directory, known_hashes_dict)
+```
