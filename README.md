@@ -18,8 +18,8 @@ Developed a Python automation tool that generates and verifies MD5 hashes to ens
 
 # Example Usage
 - Edit the script to set:
-target_directory — the path to the directory containing your files
-known_hashes_dict — a dictionary of filenames and their expected MD5 hashes
+- target_directory — the path to the directory containing your files
+- known_hashes_dict — a dictionary of filenames and their expected MD5 hashes
 
 # Run the script:
 - python3 md5_hash_verifier.py
